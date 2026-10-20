@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ENABLE ND | Engineering Portfolio</title>
+</head>
+<body>
+  <h1>ENABLE ND — Elbow Actuated Prosthetic Hand / One-Handed Keyboard</h1>
+
+  <p><a href="../index.html">← Back to Portfolio</a></p>
+
+  <h2>Project Overview</h2>
+  <p>
+    ENABLE ND is an engineering club at the University of Notre Dame that cretaes devices to enable the disabled through engineering. I have been a part of two teams in this club. 
+Last year I was a part of the one-handed keybaord team where we created a keybaord for a disabled child with a limb difference that only had one hand. This year, I am the leader of
+a team creating an elbow-actuated prothetic hand for the very active 11-year old who plays basketball, baseball, football, trumpet, rides a bike, shoots in competition for his school,
+and is a part of a cooking class.
+  </p>
+
+  <h2>My Role</h2>
+  <p>
+    One-Handed Keyboard - On this team, I mainly focused on CAD trhough SOLIDWORKS and 3D printing our models of the keyboard. As my time with the team came to an ended, all the mechanical
+aspects of the keyboard had been completed. All we had to left to do was work on the electrical components of the keyboard. 
+
+    Elbow-Actuated Prosthetic Hand - After working on the One-Handed Keyboard team, I was promoted to leader of a different team, where we are working to develop an elbow-actuated prosthetic
+hand for a very active 11 year-old. He is involved in many different activities I described earlier, so we are making a univeral sleeve that is fit to the chil's limb and then creating
+different attachemnts that can connect to the sleeve for each of the different activities he is a part of. 
+  </p>
+
+  <h2>Results and Lessons Learned</h2>
+  <p>
+    I have learned so much from these projects. They ahve taught me to see outside the box and have given me a vision for how I can use my passion of engineering to empower others. I have
+further developed my skills in CAD, 3D printing, and collaboration within a team setting. 
+  </p>
+
+  <h2>Project Images</h2>
+  <p>Add your CAD models, photos, and test results here.</p>
+</body>
+</html>
