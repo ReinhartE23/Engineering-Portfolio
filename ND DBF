@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ND DBF | Engineering Portfolio</title>
+</head>
+<body>
+  <h1>ND DBF — Structures Team Engineer</h1>
+
+  <p><a href="../index.html">← Back to Portfolio</a></p>
+
+  <h2>Project Overview</h2>
+  <p>
+    In the ND Design Build Fly (DBF) club, we design a high-performance RC aircraft that competes in a series of competitions against other universities. This aircraft must carry a payload, complete
+a specific task, and perform basic flight for a duration of time. 
+  </p>
+
+  <h2>My Role</h2>
+  <p>
+    While I am no longer a part of this club, I was formerly on the structures team of the DBF club. On thsi team, I mostly worked on CAD to develop prototypes of the structure of the aircraft. Our
+design was often constrained to the other teams such as the payload team because they needed a certain amount fo space to hold the payload, whcih heavily restricted the design of the structre. Apart
+from CAding, I also conducted some tests on the aircraft to make sure it was ready for competition.
+  </p>
+
+  <h2>Results and Lessons Learned</h2>
+  <p>
+    From this club I gained much CAd experience as well as testing/simulation experience. I also gained expereince with machine engineering and working with carbon fiber.
+  </p>
+
+  <h2>Project Images</h2>
+  <p>Add your CAD models, photos, and test results here.</p>
+</body>
+</html>
