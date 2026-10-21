@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Air Quality Sensor Housing Unit | Engineering Portfolio</title>
+</head>
+<body>
+  <h1>Air Quality Sensor Housing Unit</h1>
+
+  <p><a href="../index.html">← Back to Portfolio</a></p>
+
+  <h2>Project Overview</h2>
+  <p>
+    As part of our Enigneering Design course at the University of Notre Dame, we were challenged to create a air quality sensor housing unit that could hold the needed materials 
+to take air quality readings around Notre Dame's campus. This device was to be the housing for an air quality sensor, a light sensor, and all the necessary components such as gears 
+and wires in order to collect the readings. The housing unit was to open/close based on the light readings present and then take air quality readings based on the light readings as 
+well.
+  </p>
+
+  <h2>My Role</h2>
+  <p>
+    The housing unit my team and I designed used a gear rack and gear rack to open and close the housing unit based on the light readings. We used CAD to create compartments within 
+housing unit to hold each part such as the air quality sensor, light sensor, PCB board, gear, and wires. Our air quality sensor housing unit worked perfectly and was able to attach 
+seamlessly to a parking sign while not allowing the sensors inside to be effected by weather conditions.
+  </p>
+
+  <h2>Results and Lessons Learned</h2>
+  <p>
+    This project helped me to develop skills in CAD, 3D printing, and material/weather testing.
+  </p>
+
+  <h2>Project Images</h2>
+  <p>Add your CAD models, photos, and test results here.</p>
+</body>
+</html>
