@@ -3,50 +3,223 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Engineering Portfolio</title>
+  <title>Engineering Portfolio | Your Name</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f3f5f8;
+      color: #253247;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #14243a;
+      color: white;
+      padding: 65px 24px;
+    }
+
+    .container {
+      max-width: 1050px;
+      margin: auto;
+      padding: 0 24px;
+    }
+
+    header .container { padding: 0 24px; }
+
+    .eyebrow {
+      color: #9bbde9;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: clamp(36px, 6vw, 56px);
+      line-height: 1.15;
+      margin: 12px 0;
+    }
+
+    header p {
+      color: #d5dfeb;
+      max-width: 650px;
+    }
+
+    nav {
+      background: white;
+      border-bottom: 1px solid #dce2ea;
+      padding: 12px 24px;
+    }
+
+    nav a {
+      color: #17365d;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 24px;
+    }
+
+    main { padding-top: 35px; padding-bottom: 50px; }
+
+    h2 {
+      color: #17365d;
+      font-size: 29px;
+      margin-bottom: 8px;
+    }
+
+    .intro {
+      color: #657187;
+      margin-top: 0;
+      margin-bottom: 28px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 22px;
+      margin-top: 25px;
+    }
+
+    .project {
+      background: white;
+      border: 1px solid #e0e5ed;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 4px 14px rgba(20, 36, 58, 0.05);
+    }
+
+    .project h3 {
+      color: #17365d;
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+
+    .project p { color: #5b6678; }
+
+    .project a {
+      display: inline-block;
+      margin-top: 8px;
+      color: #1769aa;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .project a:hover { text-decoration: underline; }
+
+    section { margin-bottom: 48px; }
+
+    footer {
+      background: #14243a;
+      color: #d5dfeb;
+      padding: 25px 24px;
+      text-align: center;
+    }
+
+    footer a { color: #9bbde9; }
+
+    @media (max-width: 500px) {
+      header { padding: 42px 0; }
+      .container { padding: 0 18px; }
+      nav a { margin-right: 14px; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Eric Reinhart</h1>
-  <p>Mechanical Engineering Student at the University of Notre Dame</p>
 
-  <h2>About Me</h2>
-  <p>
-    I am an Mechanical Engineering student interested in
-    mechanical design, vehicle systems, and hands-on
-    engineering projects.
-  </p>
+  <header>
+    <div class="container">
+      <div class="eyebrow">Engineering Portfolio</div>
+      <h1>Eric Reinhart</h1>
+      <p>Mechanical Engineering Student</p>
+      <p>University of Notre Dame.</p>
+    </div>
+  </header>
 
-  <h2>My Projects</h2>
+  <nav>
+    <div class="container">
+      <a href="#projects">Projects</a>
+      <a href="#about">About Me</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
-<h3>ND Baja SAE</h3>
-<p>Design, test, and create a sing-seated vehicle that will compete in an off-road competition.</p>
-<a href="projects/ND%20Baja%20SAE.html">View Full Project →</a>
+  <main class="container">
 
-<h3>ENABLE ND</h3>
-<p>Creating devices that enable the disabled through engineering.</p>
-<a href="projects/ENABLE%20ND.html">View Full Project →</a>
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <p class="intro">
+        A selection of engineering projects, technical work,
+        and hands-on design experience.
+      </p>
 
-<h3>ND Design Build Fly (DBF)</h3>
-<p>Design and created a high-performance, unmanned, RC aircraft that competes in competition.</p>
-<a href="projects/ND%20Design%20Build%20Fly.html">View Full Project →</a>
+      <div class="projects">
 
-<h3>Hypersonic Flight Design Research</h3>
-<p>Researching a creating a projectile to compete in the UCAH Hypersonic Flight Design Competition conducted by the military.</p>
-<a href="projects/Hypersonic%20Flight%20Design%20Research.html">View Full Project →</a>
+        <article class="project">
+          <h3>ND Baja SAE</h3>
+          <p>Design, test, and create a sing-seated vehicle that will compete in an off-road competition.</p>
+          <a href="projects/ND%20Baja%20SAE.html">View Full Project →</a>
+        </article>
 
-<h3>Sound to Energy Device</h3>
-<p>Created a prototype of a device that can turn the sound around us into a useable source of energy.</p>
-<a href="projects/Sound%20to%20Energy%20Device.html">View Full Project →</a>
+        <article class="project">
+          <h3>ENABLE ND</h3>
+          <p>Creating devices that enable the disabled through engineering.</p>
+          <a href="projects/ENABLE%20ND.html">View Full Project →</a>
+        </article>
 
-<h3>Mechanical Halloween Costume for Disabled</h3>
-<p>Made a mechanical Halloween costume for a young, disabled, wheelchair-bound child.</p>
-<a href="projects/Mechanical%20Halloween%20Costume.html">View Full Project →</a>
+        <article class="project">
+          <h3>ND Design Build Fly (DBF)</h3>
+          <p>Design and created a high-performance, unmanned, RC aircraft that competes in competition.</p>
+          <a href="projects/ND%20DBF.html">View Full Project →</a>
+        </article>
 
-<h3>Air Quality Sensor</h3>
-<p>Created the housing for an air quality sensor to take measurements around the University of Notre Dame's campus.</p>
-<a href="projects/Air%20Quality%20Sensor%20Housing%20Unit.html">View Full Project →</a>
+        <article class="project">
+          <h3>Hypersonic Flight Design Research</h3>
+          <p>Researching a creating a projectile to compete in the UCAH Hypersonic Flight Design Competition conducted by the military.</p>
+          <a href="projects/Hypersonic%20flight%20Design%20Research.html">View Full Project →</a>
+        </article>
 
-  <h2>Contact</h2>
-  <p>Email: ereinha2@nd.edu</p>
+        <article class="project">
+          <h3>Sound to Energy Device</h3>
+          <p>Created a prototype of a device that can turn the sound around us into a useable source of energy.</p>
+          <a href="projects/Sound%20to%20Energy%20Device.html">View Full Project →</a>
+        </article>
+
+        <article class="project">
+          <h3>Mechanical Halloween Costume for Disabled</h3>
+          <p>Made a mechanical Halloween costume for a young, disabled, wheelchair-bound child.</p>
+          <a href="projects/Mechanical%20Halloween%20Costume.html">View Full Project →</a>
+        </article>
+
+        <article class="project">
+          <h3>Air Quality Sensor</h3>
+          <p>Created the housing for an air quality sensor to take measurements around the University of Notre Dame's campus.</p>
+          <a href="projects/Air%20Quality%20Sensor%20Housing%20Unit.html">View Full Project →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a mechanical engineering student interested in
+        hands-on design, analysis, and solving real-world
+        engineering problems.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: your-email@example.com</p>
+    </section>
+
+  </main>
+
+  <footer>
+    Engineering Portfolio · <a href="#projects">Back to Projects ↑</a>
+  </footer>
+
 </body>
 </html>
