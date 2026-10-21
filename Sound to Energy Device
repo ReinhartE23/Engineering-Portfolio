@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sound to Energy Device | Engineering Portfolio</title>
+</head>
+<body>
+  <h1>Sound to Energy Device - Science Fair</h1>
+
+  <p><a href="../index.html">← Back to Portfolio</a></p>
+
+  <h2>Project Overview</h2>
+  <p>
+    As a part of my high school science fair I chose to create a device that could create energy in a newly sustainable way. I though of what was constantly around us and immeditaly thought about how I could turn 
+the sound around us into a renewable source of energy. I created a prototype for this device and it was able to light up a small LED diode. While it still needs more work and testing, it was great experience and 
+led me to receive honors in the science fair.
+  </p>
+
+  <h2>My Role</h2>
+  <p>
+    I built this device by reversing the speaker system. A speaker system, on the basic level, uses electricty to create sound. I just reversed that process in order to use sound to create energy. This required much 
+research, disassembling, re-wiring, connecting it to a capacitor and light, and reassembling. This device took me a while to make and while it still needs more testing and devloping, it was a step in the right direction 
+of sustainability and helped me to understand my love for enigneering. 
+  </p>
+
+  <h2>Results and Lessons Learned</h2>
+  <p>
+    This project helped me to develop skills in electrical engineering (circuits) as wll as skills such as problem-solving, resilience, and curiosity.
+  </p>
+
+  <h2>Project Images</h2>
+  <p>Add your CAD models, photos, and test results here.</p>
+</body>
+</html>
